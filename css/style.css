@@ -399,7 +399,8 @@ width: 100%;
 }
 
 .aside{
-  padding-left: 60%;
+  width: 100%;
+  padding-left: 30%;
   height: 30px;
 }
 
