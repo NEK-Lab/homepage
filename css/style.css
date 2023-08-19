@@ -165,12 +165,30 @@ ul{
     display: block;/*全体が押せる*/
 }
 
-.contaier ul{
-    width: 60%;
+.container ul{
+    display: flex;
+    
+}
+.container li{
+  list-style: none;
+  width: 100%;
+}
+
+.topix{
+  width: 100%;
 }
 
 .topix img{
     width: 50%;
+}
+
+.top ul{
+  display: flex;
+  width: 50%;
+}
+
+.top ol{
+  list-style: none;
 }
 
 .date{
@@ -214,7 +232,7 @@ ul{
 
 
 .slide {
-    position: relative; width: 700px; height: 400px; overflow: hidden;
+    position: relative; width: 60%; height: 500px; overflow: hidden; padding-left: 50%;
 }
 @keyframes slideshow{
     0%{ opacity: 0; } 10%{ opacity: 1; } 28%{ opacity: 1 } 38%{ opacity: 0; } 100%{ opacity: 0; } 
@@ -232,18 +250,6 @@ ul{
 } 
 .slide img:last-child{
     animation-delay: 8s;
-}
-
-
-.top ul{
-    display: flex;
-}
-.top ul li{
-    width: 100%;
-}
-  
-.top ol{
-    list-style: none;
 }
 
 
@@ -354,23 +360,21 @@ ul{
 
 .header_img p{
     text-align: center;
-    width: 700px;
+    width: 100%;
     border-top: 2px solid#313131;
 }
-
 .container2 ul{
-    display: flex;
+  display: flex;
+  
 }
-
-.container2 ul li{
-    width: 40%;
-    text-align: left;
-    vertical-align: middle;
+.container2 li{
+list-style: none;
+width: 100%;
 }
 
 .btna {
 	position: relative;
-	width: 120%;
+	width: 80%;
 	display: block;
 	border-radius: 12px;
 	cursor: pointer;
@@ -395,7 +399,7 @@ ul{
 }
 
 .aside{
-  padding-left: 100%;
+  padding-left: 60%;
   height: 30px;
 }
 
